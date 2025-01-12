@@ -1,0 +1,421 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|c:\\users\\eduardo\\documents\\github\\projetovendas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|c:\\users\\eduardo\\documents\\github\\projetovendas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|c:\\users\\eduardo\\documents\\github\\projetovendas\\dto\\venda\\topvendedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|solutionrelative:dto\\venda\\topvendedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|c:\\users\\eduardo\\documents\\github\\projetovendas\\dto\\venda\\vendacriacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|solutionrelative:dto\\venda\\vendacriacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|c:\\users\\eduardo\\documents\\github\\projetovendas\\dto\\venda\\vendaedicaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|solutionrelative:dto\\venda\\vendaedicaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|c:\\users\\eduardo\\documents\\github\\projetovendas\\dto\\vendedor\\vendedoredicaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|solutionrelative:dto\\vendedor\\vendedoredicaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|c:\\users\\eduardo\\documents\\github\\projetovendas\\dto\\vendedor\\vendedorcriacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|solutionrelative:dto\\vendedor\\vendedorcriacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|c:\\users\\eduardo\\documents\\github\\projetovendas\\modal\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|solutionrelative:modal\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|c:\\users\\eduardo\\documents\\github\\projetovendas\\modal\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|solutionrelative:modal\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|c:\\users\\eduardo\\documents\\github\\projetovendas\\modal\\vendasmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|solutionrelative:modal\\vendasmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|c:\\users\\eduardo\\documents\\github\\projetovendas\\modal\\vendedormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|solutionrelative:modal\\vendedormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|c:\\users\\eduardo\\documents\\github\\projetovendas\\services\\cliente\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|solutionrelative:services\\cliente\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|c:\\users\\eduardo\\documents\\github\\projetovendas\\services\\cliente\\iclienteinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|solutionrelative:services\\cliente\\iclienteinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|c:\\users\\eduardo\\documents\\github\\projetovendas\\services\\email\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|solutionrelative:services\\email\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|c:\\users\\eduardo\\documents\\github\\projetovendas\\services\\email\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|solutionrelative:services\\email\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|c:\\users\\eduardo\\documents\\github\\projetovendas\\services\\vendas\\ivendasinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|solutionrelative:services\\vendas\\ivendasinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|c:\\users\\eduardo\\documents\\github\\projetovendas\\services\\vendas\\vendasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|solutionrelative:services\\vendas\\vendasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|c:\\users\\eduardo\\documents\\github\\projetovendas\\services\\vendedor\\ivendedorinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|solutionrelative:services\\vendedor\\ivendedorinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|c:\\users\\eduardo\\documents\\github\\projetovendas\\services\\vendedor\\vendedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|solutionrelative:services\\vendedor\\vendedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|c:\\users\\eduardo\\documents\\github\\projetovendas\\controllers\\vendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|solutionrelative:controllers\\vendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|c:\\users\\eduardo\\documents\\github\\projetovendas\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|c:\\users\\eduardo\\documents\\github\\projetovendas\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|solutionrelative:controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|c:\\users\\eduardo\\documents\\github\\projetovendas\\controllers\\vendedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|solutionrelative:controllers\\vendedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|c:\\users\\eduardo\\documents\\github\\projetovendas\\dto\\cliente\\clienteedicaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|solutionrelative:dto\\cliente\\clienteedicaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|c:\\users\\eduardo\\documents\\github\\projetovendas\\dto\\cliente\\clientecriacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D668C6D-CE3C-414A-B0CE-BF8BF73EBBE5}|ProjetoVendas.csproj|solutionrelative:dto\\cliente\\clientecriacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VendaEdicaoDto.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Dto\\Venda\\VendaEdicaoDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Venda\\VendaEdicaoDto.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Dto\\Venda\\VendaEdicaoDto.cs",
+              "RelativeToolTip": "Dto\\Venda\\VendaEdicaoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T14:19:02.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VendaCriacaoDto.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Dto\\Venda\\VendaCriacaoDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Venda\\VendaCriacaoDto.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Dto\\Venda\\VendaCriacaoDto.cs",
+              "RelativeToolTip": "Dto\\Venda\\VendaCriacaoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T14:18:41.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TopVendedorDto.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Dto\\Venda\\TopVendedorDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Venda\\TopVendedorDto.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Dto\\Venda\\TopVendedorDto.cs",
+              "RelativeToolTip": "Dto\\Venda\\TopVendedorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T17:13:44.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T14:05:07.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CLienteModel.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Modal\\CLienteModel.cs",
+              "RelativeDocumentMoniker": "Modal\\CLienteModel.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Modal\\CLienteModel.cs",
+              "RelativeToolTip": "Modal\\CLienteModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T14:09:30.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-10T14:03:53.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VendedorEdicaoDto.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Dto\\Vendedor\\VendedorEdicaoDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Vendedor\\VendedorEdicaoDto.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Dto\\Vendedor\\VendedorEdicaoDto.cs",
+              "RelativeToolTip": "Dto\\Vendedor\\VendedorEdicaoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T14:19:26.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VendedorCriacaoDto.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Dto\\Vendedor\\VendedorCriacaoDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Vendedor\\VendedorCriacaoDto.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Dto\\Vendedor\\VendedorCriacaoDto.cs",
+              "RelativeToolTip": "Dto\\Vendedor\\VendedorCriacaoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T14:19:14.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ResponseModel.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Modal\\ResponseModel.cs",
+              "RelativeDocumentMoniker": "Modal\\ResponseModel.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Modal\\ResponseModel.cs",
+              "RelativeToolTip": "Modal\\ResponseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T14:09:04.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VendasModel.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Modal\\VendasModel.cs",
+              "RelativeDocumentMoniker": "Modal\\VendasModel.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Modal\\VendasModel.cs",
+              "RelativeToolTip": "Modal\\VendasModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T14:10:03.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VendedorModel.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Modal\\VendedorModel.cs",
+              "RelativeDocumentMoniker": "Modal\\VendedorModel.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Modal\\VendedorModel.cs",
+              "RelativeToolTip": "Modal\\VendedorModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T14:09:53.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Services\\Cliente\\ClienteService.cs",
+              "RelativeDocumentMoniker": "Services\\Cliente\\ClienteService.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Services\\Cliente\\ClienteService.cs",
+              "RelativeToolTip": "Services\\Cliente\\ClienteService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwCAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T15:10:51.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IClienteInterface.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Services\\Cliente\\IClienteInterface.cs",
+              "RelativeDocumentMoniker": "Services\\Cliente\\IClienteInterface.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Services\\Cliente\\IClienteInterface.cs",
+              "RelativeToolTip": "Services\\Cliente\\IClienteInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T15:08:41.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Services\\Email\\EmailService.cs",
+              "RelativeDocumentMoniker": "Services\\Email\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Services\\Email\\EmailService.cs",
+              "RelativeToolTip": "Services\\Email\\EmailService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowC4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T18:32:51.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SmtpSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Services\\Email\\SmtpSettings.cs",
+              "RelativeDocumentMoniker": "Services\\Email\\SmtpSettings.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Services\\Email\\SmtpSettings.cs",
+              "RelativeToolTip": "Services\\Email\\SmtpSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T18:51:16.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IVendasInterface.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Services\\Vendas\\IVendasInterface.cs",
+              "RelativeDocumentMoniker": "Services\\Vendas\\IVendasInterface.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Services\\Vendas\\IVendasInterface.cs",
+              "RelativeToolTip": "Services\\Vendas\\IVendasInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T16:37:01.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "VendasService.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Services\\Vendas\\VendasService.cs",
+              "RelativeDocumentMoniker": "Services\\Vendas\\VendasService.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Services\\Vendas\\VendasService.cs",
+              "RelativeToolTip": "Services\\Vendas\\VendasService.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAcwEIAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T16:41:54.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IVendedorInterface.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Services\\Vendedor\\IVendedorInterface.cs",
+              "RelativeDocumentMoniker": "Services\\Vendedor\\IVendedorInterface.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Services\\Vendedor\\IVendedorInterface.cs",
+              "RelativeToolTip": "Services\\Vendedor\\IVendedorInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T14:30:12.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "VendedorService.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Services\\Vendedor\\VendedorService.cs",
+              "RelativeDocumentMoniker": "Services\\Vendedor\\VendedorService.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Services\\Vendedor\\VendedorService.cs",
+              "RelativeToolTip": "Services\\Vendedor\\VendedorService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wBgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T14:33:35.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "VendaController.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Controllers\\VendaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VendaController.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Controllers\\VendaController.cs",
+              "RelativeToolTip": "Controllers\\VendaController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwB8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T16:56:06.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAMwAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T14:02:50.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "VendedorController.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Controllers\\VendedorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VendedorController.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Controllers\\VendedorController.cs",
+              "RelativeToolTip": "Controllers\\VendedorController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAqwCkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T14:49:41.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwCgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T15:28:14.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ClienteEdicaoDto.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Dto\\Cliente\\ClienteEdicaoDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Cliente\\ClienteEdicaoDto.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Dto\\Cliente\\ClienteEdicaoDto.cs",
+              "RelativeToolTip": "Dto\\Cliente\\ClienteEdicaoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T14:18:24.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ClienteCriacaoDto.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Dto\\Cliente\\ClienteCriacaoDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Cliente\\ClienteCriacaoDto.cs",
+              "ToolTip": "C:\\Users\\Eduardo\\Documents\\GitHub\\ProjetoVendas\\Dto\\Cliente\\ClienteCriacaoDto.cs",
+              "RelativeToolTip": "Dto\\Cliente\\ClienteCriacaoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T14:18:14.472Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

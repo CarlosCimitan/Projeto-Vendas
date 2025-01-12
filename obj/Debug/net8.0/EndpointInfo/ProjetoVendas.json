@@ -1,0 +1,644 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "ProjetoVendas",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Cliente/CiacaoCliente": {
+      "post": {
+        "tags": [
+          "Cliente"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ClienteCriacaoDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ClienteCriacaoDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ClienteCriacaoDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CLienteModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CLienteModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CLienteModel"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cliente/EdicaoCliente": {
+      "put": {
+        "tags": [
+          "Cliente"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ClienteEdicaoDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ClienteEdicaoDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ClienteEdicaoDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CLienteModel"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CLienteModel"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CLienteModel"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cliente/ExcluirCliente": {
+      "delete": {
+        "tags": [
+          "Cliente"
+        ],
+        "parameters": [
+          {
+            "name": "idCliente",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CLienteModel"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CLienteModel"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CLienteModel"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Cliente/BuscarClientePorid": {
+      "get": {
+        "tags": [
+          "Cliente"
+        ],
+        "parameters": [
+          {
+            "name": "idCliente",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CLienteModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CLienteModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CLienteModel"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Venda/CriarVenda": {
+      "post": {
+        "tags": [
+          "Venda"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VendaCriacaoDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VendaCriacaoDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/VendaCriacaoDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VendasModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VendasModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VendasModel"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Venda/TopVendedores": {
+      "get": {
+        "tags": [
+          "Venda"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/TopVendedorDtoListResponseModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TopVendedorDtoListResponseModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TopVendedorDtoListResponseModel"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Vendedor/CiacaoVendedor": {
+      "post": {
+        "tags": [
+          "Vendedor"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VendedorCriacaoDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VendedorCriacaoDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/VendedorCriacaoDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VendedorModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VendedorModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VendedorModel"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Vendedor/EdicaoVendedor": {
+      "put": {
+        "tags": [
+          "Vendedor"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VendedorEdicaoDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VendedorEdicaoDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/VendedorEdicaoDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VendedorModel"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VendedorModel"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VendedorModel"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Vendedor/ExcluirVendedor": {
+      "delete": {
+        "tags": [
+          "Vendedor"
+        ],
+        "parameters": [
+          {
+            "name": "idVendedor",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VendedorModel"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VendedorModel"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/VendedorModel"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Vendedor/BuscarVendedorPorid/{idVendedor}": {
+      "get": {
+        "tags": [
+          "Vendedor"
+        ],
+        "parameters": [
+          {
+            "name": "idVendedor",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/VendedorModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VendedorModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/VendedorModel"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CLienteModel": {
+        "type": "object",
+        "properties": {
+          "idCliente": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nomeCliente": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailCliente": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ClienteCriacaoDto": {
+        "type": "object",
+        "properties": {
+          "nomeCliente": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailCliente": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ClienteEdicaoDto": {
+        "type": "object",
+        "properties": {
+          "idCliente": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nomeCliente": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailCliente": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TopVendedorDto": {
+        "type": "object",
+        "properties": {
+          "idVendedor": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nomeVendedor": {
+            "type": "string",
+            "nullable": true
+          },
+          "mediaVendas": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TopVendedorDtoListResponseModel": {
+        "type": "object",
+        "properties": {
+          "dados": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TopVendedorDto"
+            },
+            "nullable": true
+          },
+          "mensagem": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "VendaCriacaoDto": {
+        "type": "object",
+        "properties": {
+          "dataVenda": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "valorVenda": {
+            "type": "number",
+            "format": "double"
+          },
+          "idVendedor": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idcLiente": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VendasModel": {
+        "type": "object",
+        "properties": {
+          "idVenda": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dataVenda": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "valorVenda": {
+            "type": "number",
+            "format": "double"
+          },
+          "vendedor": {
+            "$ref": "#/components/schemas/VendedorModel"
+          },
+          "cLiente": {
+            "$ref": "#/components/schemas/CLienteModel"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VendedorCriacaoDto": {
+        "type": "object",
+        "properties": {
+          "nomeVendedor": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "VendedorEdicaoDto": {
+        "type": "object",
+        "properties": {
+          "idVendedor": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nomeVendedor": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "VendedorModel": {
+        "type": "object",
+        "properties": {
+          "idVendedor": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nomeVendedor": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

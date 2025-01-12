@@ -1,0 +1,256 @@
+[
+  {
+    "ContainingType": "ProjetoVendas.Controllers.ClienteController",
+    "Method": "BuscarClientePorid",
+    "RelativePath": "api/Cliente/BuscarClientePorid",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCliente",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ProjetoVendas.Modal.CLienteModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProjetoVendas.Controllers.ClienteController",
+    "Method": "CiacaoCliente",
+    "RelativePath": "api/Cliente/CiacaoCliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clienteCriacaoDto",
+        "Type": "ProjetoVendas.Dto.Cliente.ClienteCriacaoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ProjetoVendas.Modal.CLienteModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProjetoVendas.Controllers.ClienteController",
+    "Method": "EdicaoCliente",
+    "RelativePath": "api/Cliente/EdicaoCliente",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clienteEdicaoDto",
+        "Type": "ProjetoVendas.Dto.Cliente.ClienteEdicaoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ProjetoVendas.Modal.CLienteModel, ProjetoVendas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProjetoVendas.Controllers.ClienteController",
+    "Method": "ExcluirCliente",
+    "RelativePath": "api/Cliente/ExcluirCliente",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCliente",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ProjetoVendas.Modal.CLienteModel, ProjetoVendas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProjetoVendas.Controllers.VendaController",
+    "Method": "CriarVenda",
+    "RelativePath": "api/Venda/CriarVenda",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vendaCriacaoDto",
+        "Type": "ProjetoVendas.Dto.Venda.VendaCriacaoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ProjetoVendas.Modal.VendasModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProjetoVendas.Controllers.VendaController",
+    "Method": "TopVendedores",
+    "RelativePath": "api/Venda/TopVendedores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ProjetoVendas.Modal.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[ProjetoVendas.Dto.Venda.TopVendedorDto, ProjetoVendas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProjetoVendas.Controllers.VendedorController",
+    "Method": "BuscarVendedorPorid",
+    "RelativePath": "api/Vendedor/BuscarVendedorPorid/{idVendedor}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idVendedor",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ProjetoVendas.Modal.VendedorModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProjetoVendas.Controllers.VendedorController",
+    "Method": "CiacaoVendedor",
+    "RelativePath": "api/Vendedor/CiacaoVendedor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vendedorCriacaoDto",
+        "Type": "ProjetoVendas.Dto.vendedor.VendedorCriacaoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ProjetoVendas.Modal.VendedorModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProjetoVendas.Controllers.VendedorController",
+    "Method": "EdicaoVendedor",
+    "RelativePath": "api/Vendedor/EdicaoVendedor",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vendedorEdicaoDto",
+        "Type": "ProjetoVendas.Dto.vendedor.VendedorEdicaoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ProjetoVendas.Modal.VendedorModel, ProjetoVendas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProjetoVendas.Controllers.VendedorController",
+    "Method": "ExcluirVendedor",
+    "RelativePath": "api/Vendedor/ExcluirVendedor",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idVendedor",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ProjetoVendas.Modal.VendedorModel, ProjetoVendas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
